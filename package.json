@@ -1,0 +1,36 @@
+{
+  "name": "hen-starter",
+  "description": "A vite HEN interactive starter, with linting and typescript",
+  "author": {
+    "name": "Gian F. Olivieri",
+    "email": "gian.olivieri@gmail.com",
+    "url": "https://giank.us"
+  },
+  "license": "Unlicense",
+  "version": "0.1.0-beta.0",
+  "scripts": {
+    "dev": "vite",
+    "lint": "eslint src/**/*.ts --fix",
+    "build": "tsc && vite build --base=./",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "@types/lodash.debounce": "^4.0.6",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "postcss-mixins": "^8.1.0",
+    "postcss-nested": "^5.0.6",
+    "postcss-utilities": "^0.8.4",
+    "typescript": "^4.3.2",
+    "vite": "^2.6.0"
+  },
+  "dependencies": {
+    "lodash.debounce": "^4.0.8",
+    "normalize.css": "^8.0.1"
+  }
+}

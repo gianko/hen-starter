@@ -1,0 +1,44 @@
+@import "normalize.css";
+
+:root {
+  --max-width: 1056px;
+  --background-color: #f06292;
+  --app-background-color: #ba68c8;
+  --app-border-color: #863895;
+}
+
+:global {
+  html {
+    background-color: var(--background-color);
+    height: 100%;
+    width: 100%;
+  }
+  body {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.app {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+
+.container {
+  background-color: var(--app-background-color);
+  box-shadow: inset 0 0 0 5px var(--app-border-color);
+  max-width: var(--max-width);
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+
+  &::after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+  }
+}
