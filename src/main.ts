@@ -5,13 +5,16 @@ import style from './style.module.css'
 // const creator = new URLSearchParams(window.location.search).get('creator')
 // const viewer = new URLSearchParams(window.location.search).get('viewer')
 
-// set this to false if you want to limit your app size on fullscreen to css' max-width variable
-const OVERWRITE_ON_FULLSCREEN = import.meta.env.PROD
+// set this to true if you want to override css' max-width variable on fullscreen
+const OVERWRITE_ON_FULLSCREEN = false
 
 const app = document.querySelector<HTMLDivElement>('#app')!
 app.className = style.app
 app.innerHTML = `
-  <div class="${style.container}"></div>
+  <div class="${style.wrapper}">
+    <div class="${style.container}">
+    </div>
+  </div>
 `
 
 const onResize = () => {
@@ -22,3 +25,4 @@ const onResize = () => {
 }
 
 window.addEventListener('resize', debounce(onResize))
+onResize()
