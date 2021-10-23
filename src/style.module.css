@@ -1,7 +1,6 @@
 @import "normalize.css";
 
 :root {
-  --max-width: 1056px;
   --background-color: #f06292;
   --app-background-color: #ba68c8;
   --app-border-color: #863895;
@@ -12,46 +11,32 @@
     box-sizing: border-box;
   }
 
-  html {
-    background-color: var(--background-color);
-    height: 100%;
+  html,
+  body {
     width: 100%;
+    height: 100%;
   }
 
-  body {
-    height: 100%;
-    width: 100%;
+  html {
+    background-color: var(--background-color);
   }
 }
 
 .app {
-  align-items: center;
+  position: relative;
   display: flex;
-  height: 100%;
+  align-items: center;
   justify-content: center;
-  position: relative;
   width: 100%;
-}
-
-.wrapper {
-  max-width: var(--max-width);
-  overflow: hidden;
-  position: relative;
-  width: 100%;
-
-  &::after {
-    content: "";
-    display: block;
-    padding-bottom: 100%;
-  }
+  height: 100%;
 }
 
 .container {
   background-color: var(--app-background-color);
   border: 5px solid var(--app-border-color);
-  height: 100%;
   padding: 20px;
-  position: absolute;
-  top: 0;
   width: 100%;
+  height: 100%;
+  max-width: clamp(1px, 100vh, 1056px);
+  max-height: clamp(1px, 100vw, 1056px);
 }
