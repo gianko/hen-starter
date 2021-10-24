@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "nicofonseca",
+      "name": "nico fonseca (•ε • )",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12025749?v=4",
+      "profile": "https://dribbble.com/nicofonseca",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "hen-starter",
+  "projectOwner": "gianko",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
