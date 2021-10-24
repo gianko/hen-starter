@@ -1,0 +1,25 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "gianko",
+      "name": "Gian F. Olivieri",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1309885?v=4",
+      "profile": "http://giank.us",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "hen-starter",
+  "projectOwner": "gianko",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
