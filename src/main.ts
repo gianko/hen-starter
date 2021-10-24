@@ -4,9 +4,12 @@ import style from './style.module.css'
 // const creator = new URLSearchParams(window.location.search).get('creator')
 // const viewer = new URLSearchParams(window.location.search).get('viewer')
 
-const app = document.querySelector<HTMLDivElement>('#app')!
+const LIMITED_SIZE = true
+
+const app = document.querySelector<HTMLDivElement>('#app') as HTMLDivElement
+
 app.className = style.app
 app.innerHTML = `
-  <div class="${style.container}">
+  <div class="${LIMITED_SIZE ? style.limitedContainer : style.fullContainer}">
   </div>
 `
