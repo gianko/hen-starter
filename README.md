@@ -24,6 +24,8 @@ that's it!
 
 ### Development hints
 
-To make it really responsive everything should be in percentages and inside the `.container`.
+To make it really responsive everything should be in percentages and inside the container `<div>`
 
-If you want you can change the `--max-width` css variable, but that's the maximun size on HEN at high resolutions.y
+### Feature Request
+
+If you got a feature request please open an issue, but keep in mind that this is a tech stack independent starter.

@@ -7,7 +7,7 @@
     "url": "https://giank.us"
   },
   "license": "Unlicense",
-  "version": "0.1.0-beta.0",
+  "version": "0.1.0",
   "scripts": {
     "dev": "vite",
     "lint": "eslint src/**/*.ts --fix",
