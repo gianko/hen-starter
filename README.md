@@ -25,11 +25,11 @@ When you are ready run `yarn build` and zip our `/dist` folder
 that's it!
 
 
-### Development hints
+## Development hints
 
 To make it really responsive everything should be in percentages and inside the container `<div>`
 
-### Feature Request
+## Feature Request
 
 If you got a feature request please open an issue, but keep in mind that this is a tech stack independent starter.
 
