@@ -6,6 +6,16 @@
   "commit": false,
   "contributors": [
     {
+      "login": "gianko",
+      "name": "Gian F. Olivieri",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1309885?v=4",
+      "profile": "http://giank.us",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    },
+    {
       "login": "nicofonseca",
       "name": "nico fonseca (•ε • )",
       "avatar_url": "https://avatars.githubusercontent.com/u/12025749?v=4",

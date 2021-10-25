@@ -27,9 +27,12 @@ that's it!
 
 ### Development hints
 
-To make it really responsive everything should be in percentages and inside the `.container`.
+To make it really responsive everything should be in percentages and inside the container `<div>`
 
-If you want you can change the `--max-width` css variable, but that's the maximun size on HEN at high resolutions.y
+### Feature Request
+
+If you got a feature request please open an issue, but keep in mind that this is a tech stack independent starter.
+
 
 ## Contributors ✨
 
@@ -40,6 +43,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
+    <td align="center"><a href="http://giank.us"><img src="https://avatars.githubusercontent.com/u/1309885?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Gian F. Olivieri</b></sub></a><br /><a href="https://github.com/gianko/hen-starter/commits?author=gianko" title="Code">💻</a> <a href="https://github.com/gianko/hen-starter/commits?author=gianko" title="Documentation">📖</a></td>    
     <td align="center"><a href="https://dribbble.com/nicofonseca"><img src="https://avatars.githubusercontent.com/u/12025749?v=4?s=100" width="100px;" alt=""/><br /><sub><b>nico fonseca (•ε • )</b></sub></a><br /><a href="https://github.com/gianko/hen-starter/commits?author=nicofonseca" title="Code">💻</a></td>
   </tr>
 </table>
