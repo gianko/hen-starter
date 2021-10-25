@@ -21,9 +21,10 @@ Install everything with `yarn`, then run your server with `yarn dev` and start h
 When you are ready run `yarn build` and zip our `/dist` folder
 that's it!
 
-
 ### Development hints
 
-To make it really responsive everything should be in percentages and inside the `.container`.
+To make it really responsive everything should be in percentages and inside the container `<div>`
 
-If you want you can change the `--max-width` css variable, but that's the maximun size on HEN at high resolutions.y
+### Feature Request
+
+If you got a feature request please open an issue, but keep in mind that this is a tech stack independent starter.
